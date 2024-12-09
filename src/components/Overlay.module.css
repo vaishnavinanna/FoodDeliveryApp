@@ -1,0 +1,106 @@
+.modalDialog {
+    width: 90vw !important; 
+    max-width: 1200px !important;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .modalDialog {
+      width: 70vw !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .modalDialog {
+      width: 50vw !important; 
+    }
+  }
+
+  @media(min-width :971px){
+    .modalDialog{
+      width: 50vw !important;
+    }
+  }
+  @media(min-width :567){
+    .modalDialog{
+      width: 50vw !important;
+    }
+  }
+
+  .modalHeader {
+    text-align: center;
+  }
+  
+  .modalBody {
+    padding: 20px;
+  }
+  
+  .table {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .tableHeader {
+    background-color: #f5f5f5;
+  }
+  
+  .tableHeader th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tableBody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tableBody td {
+    padding: 10px;
+  }
+  
+  .actionsButton {
+    margin: 0 5px;
+  }
+  
+  .quantityText {
+    margin: 0 10px;
+  }
+  
+  .deleteIcon {
+    font-size: 30px !important;
+    /* height: 50px; */
+  color: #f33; 
+  cursor: pointer; 
+  }
+  
+  .totalAmountBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .orderButton {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .closeButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .orderModal {
+    max-width: 400px;
+  }
+  
+  .orderModalHeader {
+    text-align: center;
+  }
+  
+  .orderModalBody {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

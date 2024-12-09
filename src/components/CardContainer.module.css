@@ -1,0 +1,81 @@
+.card {
+  width: 100%;
+  width: 450px;
+  height: 450px; 
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin: 30px;
+}
+
+.cardMedia {
+  object-fit: cover;
+  height: 300px; 
+  border-radius: 16px 16px 0 0;
+}
+
+.cardTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; 
+  padding: 10px;
+}
+
+.cardPrice {
+  color: #f33;
+  font-weight: bold;
+}
+
+.quantitySection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10px;
+  gap: 10px;
+}
+
+.quantityInput {
+  width: 60px !important;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+
+.addButton {
+  background-color: #f35024;
+  color: #fff;
+  height: 40px;
+  text-transform: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  padding-top: 10px !important;
+}
+
+.addButton {
+  background-color: #d13e1e !important;
+  width: 150px;
+  height: 40px;
+}
+
+.snackbar {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 345px;
+    /* height: 400px; */
+  }
+  
+}
